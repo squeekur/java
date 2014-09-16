@@ -1,0 +1,15 @@
+# A simple makefile
+myHello: hello.class
+	echo Main-class: hello > Manifest
+	jar cvfm myHello Manifest hello.class
+	rm Manifest
+	chmod +x myHello	
+
+hello.class: hello.java
+	javac -Xlint hello.java
+
+clean:
+	rm -f hello.class myHello
+
+submit: README makefile hello.java
+	submit cmps012b-pt.u13 lab1 README makefile hello.java
