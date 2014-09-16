@@ -1,0 +1,25 @@
+Report file: ex4.rpt
+20 Jobs:
+(1, 5, *) (2, 6, *) (3, 4, *) (4, 10, *) (5, 3, *) (6, 5, *) (7, 9, *) (8, 2, *) (9, 6, *) (10, 11, *) (11, 2, *) (12, 3, *) (13, 7, *) (14, 6, *) (15, 5, *) (16, 4, *) (17, 9, *) (18, 3, *) (19, 2, *) (20, 1, *) 
+
+*****************************************************************************
+
+1 processor: totalWait=876, maxWait=83, averageWait=43.8
+2 processors: totalWait=317, maxWait=35, averageWait=15.85
+3 processors: totalWait=129, maxWait=23, averageWait=6.45
+4 processors: totalWait=63, maxWait=13, averageWait=3.15
+5 processors: totalWait=30, maxWait=8, averageWait=1.5
+6 processors: totalWait=9, maxWait=5, averageWait=0.45
+7 processors: totalWait=7, maxWait=7, averageWait=0.35
+8 processors: totalWait=6, maxWait=6, averageWait=0.3
+9 processors: totalWait=0, maxWait=0, averageWait=0.0
+10 processors: totalWait=0, maxWait=0, averageWait=0.0
+11 processors: totalWait=0, maxWait=0, averageWait=0.0
+12 processors: totalWait=0, maxWait=0, averageWait=0.0
+13 processors: totalWait=0, maxWait=0, averageWait=0.0
+14 processors: totalWait=0, maxWait=0, averageWait=0.0
+15 processors: totalWait=0, maxWait=0, averageWait=0.0
+16 processors: totalWait=0, maxWait=0, averageWait=0.0
+17 processors: totalWait=0, maxWait=0, averageWait=0.0
+18 processors: totalWait=0, maxWait=0, averageWait=0.0
+19 processors: totalWait=0, maxWait=0, averageWait=0.0

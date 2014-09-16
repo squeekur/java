@@ -1,0 +1,20 @@
+// April Dawn Kester
+// akester
+// CMPS 12B
+// July 31, 2013
+// Table of content
+// README
+// MY TRC FILE WILL INCLUDE AN EXTRA LINE FOR A QUEUE CALLED FINISHED, I did not send completed jobs to the end of the storage queue as in the examples.  It was my understanding from the instructor that this is acceptable.  **WARNING line test will not match
+//Also, I noticed when testing that my TRC does not always match the model output.  The reason for this is because if two jobs are ready to be moved at the same time I always chose to move from the storage queue to a processor and then from the processor to the finished queue.  It would appear that in the examples it is done the opposite, there is nothing in the instructions that specifies it has to be done one way as opposed to the other.
+//My TRC file shows times with multiple moves so that you can see what I'm referring to, SORRY… I usually try to make sure everything matches the model exactly so that you don't have to spend excess time grading - but the instructions were somewhat vague.
+
+README
+makefile
+Simulation.java
+QueueInterface.java //DO NOT ALTER CODE
+QueueEmptyException.java
+Queue.java
+QueueTest.java
+Job.java //DO NOT ALTER CODE
+
+Pair.java // extra class used with Queue.Test to make sure my Queue would accept a generic object.
